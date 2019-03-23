@@ -1,0 +1,13 @@
+name: SFPlugin
+main: com.sofurry.bukkit.sfplugin.SFPlugin
+version: ${version}
+commands:
+  sfregister:
+    description: "Register your minecraft account with SoFurry.com, earning extra benefits in the process"
+    usage: "Usage: '/sfregister' to get confirmation link. Use that link to visit SoFurry.com and connect your Minecraft account with your SoFurry account. You need to have a SoFurry account to use this!"
+  sflist:
+    description: "Lists online users sorted by pex groups"
+    usage: "/sflist"
+  rentfly:
+    description: "Rents out /fly"
+    usage: "/rentfly start/stop"
